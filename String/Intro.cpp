@@ -28,3 +28,7 @@ int main(){
 // dono chize smjh gye bolo
 
 
+int main (){
+   
+}
+
