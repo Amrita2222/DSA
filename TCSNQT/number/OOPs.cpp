@@ -6,6 +6,20 @@ private:
     double salary;
 
 public:
+    Teacher(){
+        cout << "Hii I am Rita\n";
+    }
+    // Non-Parametor
+    Teacher(){
+        dept = "Computer Science";
+    }
+    // Parametrize
+    Teacher(string n, string d, string s, double sal){
+        name = n;
+        dept = d;
+        subject = s;
+        salary = sal;
+    }
     string name;
     string dept;
     string subject;
